@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" href="asset/logo-pas2.jpeg">
 	<style type="text/css">
+		.container-ca {
+			width: 75vw;
+			height: 80vw;
+		}
 /*		@media (min-width: 576px)*/
 		.card-deck {
 			-ms-flex-flow: row wrap;
@@ -16,13 +20,20 @@
 			margin-right: -15px;
 			margin-left: -15px;
 			padding: 2%;
-	        margin: 0 auto; /* Added */
-	        float: none; /* Added */
-    	    margin-bottom: 10px; /* Added */
-    	    max-width: 100rem; 
-    	    max-height: 100rem;
-		},
-
+			margin: 0 auto; /* Added */
+			float: none; /* Added */
+			margin-bottom: 10px; /* Added */
+			max-width: 100rem; 
+			max-height: 100rem;
+		}
+		.card-img-top {
+			width: 100%;
+			height: 25vw;
+			object-fit: cover;
+		}
+		.footer-copyright {
+			margin-top: 0vw;
+		}
 	</style>
     <title>PAS Tour &amp; Travel</title>
   </head>
@@ -61,18 +72,18 @@
 		  </div>
 		</nav>
 	</div>
-
-	<div class="container-slide">
+	
+	<div class="container-ca">
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-50" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="First slide">
+		      <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="First slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-50" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="Second slide">
+		      <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="Second slide">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-50" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="Third slide">
+		      <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="Third slide">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -85,8 +96,7 @@
 		  </a>
 		</div>
 	</div>
-
-	<div class="content-travel">
+<!-- 	<div class="content-travel">
 		<div class="card-deck">
 			<div class="card">
 				<img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo-Free.jpg" alt="Card image cap">
@@ -127,7 +137,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	  <!-- Footer -->
   <footer class="page-footer font-small unique-color-dark navbar-dark bg-light">
 
@@ -223,7 +233,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 bg-secondary">
+    <div class="footer-copyright text-center bg-secondary">
       © 2018 Copyright: @athix.doesgen5.doesuniversity
     </div>
     <!-- Copyright -->
