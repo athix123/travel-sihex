@@ -7,19 +7,62 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="icon" href="logo-pas2.jpeg">
+    <link rel="icon" href="asset/logo-pas2.jpeg">
     <style type="text/css">
-      
+      .card-text {
+        font-size: 50%;
+      }
+      .card-deck {
+        margin: 10px;
+      }
+      .card {
+        width: 100%;
+        height: 70%;
+        padding: 10px;
+      }
+      .card-img-top {
+        width: 75%;
+        height: 25vw;
+        object-fit: cover;
+      }
+      .footer-copyright {
+        margin-top: 0vw;
+      }
+      .bg1 {
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/sihex-travel.appspot.com/o/desain%20banner%2F4873.jpg?alt=media&token=0e313b1c-1956-4ec3-ba34-258a67c9dfc1);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      @media (max-width: 576px) and (max-width: 768px){ 
+        .container-ca {
+          width: 96%;
+          margin-left: 2%;
+          margin-bottom: 10%;
+          margin-top: 10%;
+        }
 
+        .row {
+          font-size: 0.8rem;
+        }
+        .col-md-2 {
+          padding-top: 1px;
+          margin-top: -125px;
+        }
+        .logo-footer {
+          padding: 15%;
+        }
+      }
     </style>
-    <title>PAS Tour & Travel</title>
+    <title>PAS Tour &amp; Travel</title>
   </head>
   <body>
     
   <div class="container-nav">
     <nav class="navbar top navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">
-        <img src="logo-pas1.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand" href="index.html">
+        <img src="asset/logo-pas1.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
         PAS
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,6 +91,17 @@
         </ul>
       </div>
     </nav>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid bg-light">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top img-fluid mx-auto d-block" src="https://firebasestorage.googleapis.com/v0/b/sihex-travel.appspot.com/o/OE60S60.jpg?alt=media&token=faf286c9-45d4-4712-a51f-1b4e44b34eed" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text text-center">Designed by Rwdd_Studios</p>
+        </div>
+      </div>
+    </div>
   </div>
     <!-- Footer -->
   <footer class="page-footer font-small unique-color-dark navbar-dark bg-light">
@@ -107,29 +161,26 @@
       </div>
     </div>
     <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
+    <div class="bg1 img-fluid text-dark text-center text-md-left mt-3">
 
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row py-4">
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-justify">
+        <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-3 text-justify">
 
-          <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
-
+        <!-- Content -->
+      <div class="logo-footer">
+            <img src="https://firebasestorage.googleapis.com/v0/b/sihex-travel.appspot.com/o/logoPas%2Flogo-pas.png?alt=media&token=4b0424ec-21bf-4423-91d5-57fa8e10ecc9" width="100%" height="100%" class="d-inline-block align-top py-5" alt="">
+      </div>
         </div>
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-justify">
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-2 py-2 text-center">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Kantor dan Kontak</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <h5 class="text-uppercase font-weight-bold">Kantor dan Kontak</h5>
           <p> Jalan Raya Provinsi, Menturus, Kec.Kudu Kab.Jombang – Jawa Timur </p>
           <p> <b>permataagungsentosa@gmail.com</b></p>
           <p> Hotline 1 : <b>+62812 1770 6293</b> </p>
@@ -144,7 +195,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 bg-secondary">
+    <div class="footer-copyright text-center bg-secondary">
       © 2018 Copyright: @athix.doesgen5.doesuniversity
     </div>
     <!-- Copyright -->
